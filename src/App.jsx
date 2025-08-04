@@ -6,7 +6,7 @@ function App() {
   const [teas, setTeas] = useState([]);
   const [newTea, setNewTea] = useState({ id: '', name: '', origin: '' });
 
-  const API_URL = 'http://127.0.0.1:8000';
+  const API_URL = 'https://fast-api-proj1-backend.onrender.com';
 
   useEffect(() => {
     fetchTeas();
